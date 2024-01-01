@@ -79,7 +79,7 @@ body{
 
 /* Responsiveness */
 
-@media only screen and (max-width: 763px) {
+@media only screen and (max-width: 1200px) {
     .main-container {
         flex-direction: column;
     }
@@ -92,7 +92,7 @@ body{
         justify-content: center;
     }
     .div-2{
-        width: 55%;
+        min-width: fit-content;
     }
     #description{
         font-size: 20px;
