@@ -1,0 +1,105 @@
+body{
+    background-image: linear-gradient(135deg, #fff6ae, #ffb2f0);
+}
+.main-container {
+    display: flex;
+    height: 100vh;
+    /* min-height: 100vh;
+    max-height: max-content; */
+}
+
+/* image container */
+
+.div1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.div1-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 60%;
+}
+.div1-2 {
+    width: 40%;
+    height: 60%;
+}
+.img-container {
+    height: 48%;
+}
+.im {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.ig {
+    height: 100%;
+    width: 90%;
+    object-fit: cover;
+}
+
+/* Description Container or 2nd Div Container */
+
+.div2-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.div-2 {
+    font-family:'Gill Sans MT';
+    align-items: center;
+    width: 50%;
+    max-height: fit-content;
+    padding: 20px;
+    background-color: #ff7171;
+}
+#description{
+    padding-top: 6%;
+    padding-bottom: 6%;
+    letter-spacing:5px ;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Arrow position handling */
+.arrow {
+    height: 20px;
+    position: relative;
+    top: 4px;
+    left: 5px
+}
+.arclk {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Responsiveness */
+
+@media only screen and (max-width: 763px) {
+    .main-container {
+        flex-direction: column;
+    }
+    .div1-container,
+    .div2-container {
+        width: 100%;
+        height: 50%;
+    }
+    .div2-container{
+        justify-content: center;
+    }
+    .div-2{
+        width: 55%;
+    }
+    #description{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #title{
+        font-size: 10px;
+        font-weight: bold;
+    }
+}

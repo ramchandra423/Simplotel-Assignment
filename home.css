@@ -1,0 +1,85 @@
+/* Navbar */
+.navbar{
+    display: flex;
+    width: 100%;
+    background-color: #ff7171;
+    align-items: center;
+    justify-content:space-evenly;
+    font-weight: bold;
+}
+.menu-img{
+    height: 30px;
+}
+
+/* Main body */
+.main-container{
+    display: flex;
+    height: 92vh;
+    background-image: linear-gradient(to right,#fff6ae , #ffb2f0);
+}
+.div_1 , .div_2{
+    width: 50%;
+    height: 100%;
+}
+.div_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    width: 70%;
+    
+}
+p{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.heading{
+    font-size: 2.125rem;
+    font-weight: bold;
+    font-family:'Gill Sans MT';
+    letter-spacing: 5px;
+}
+.btn{
+    background-color: #ff7171;
+    color: white;
+    text-decoration: none;
+    width: 25%;
+    text-align: center;
+    font-size:small;
+    font-family: 'Gill Sans MT';
+    padding: 3% 8% 3% 8%;
+}
+.mig{
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        font-size: 7px;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .menu-img{
+        height:12px;
+    }
+    .div_1,.div_2{
+        width: 100%;
+        height: 50%;
+    }
+    .heading{
+        font-size:10px;
+    }
+    p{
+        font-size: small;
+    }
+    .mig{
+        width: 100%;
+        height: 90%;
+    }
+}
