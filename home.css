@@ -27,6 +27,7 @@
     align-items: center;
 }
 .details{
+    font-family:'Gill Sans MT';
     width: 70%;
     
 }
@@ -37,7 +38,6 @@ p{
 .heading{
     font-size: 2.125rem;
     font-weight: bold;
-    font-family:'Gill Sans MT';
     letter-spacing: 5px;
 }
 .btn{
